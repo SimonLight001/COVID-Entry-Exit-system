@@ -28,7 +28,7 @@ def main_page():
             </head>
             <body style="color: white; font-family: Futura; text-align: center; background-color:''' + color + '''">
                 <div style="display: inline-block; width: 100%; white-space: nowrap;">
-                    <h1 style="float: left; padding-left: 10px; font-size: 50px"> Bedfont CXC </h1>
+                    <h1 style="float: left; padding-left: 10px; font-size: 50px"> Bedfont Lakes CXC </h1>
                     <h1 style="text-align: right; padding-right: 10-px; font-size: 200px; padding-top: -10px">''' + str(percentage) + '''%</h1>
                     <p style="float: left; white-space: pre-line; font-size: 25px; padding-left: 10px">COVID 19 \n Density Threshold</p>
                     <h1 style="font-size: 50px">''' + status + '''</h1>
