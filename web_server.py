@@ -24,19 +24,20 @@ def main_page():
         <html>
          <meta http-equiv="refresh" content="5" />
             <head>
-                <title>Library COVID Tracker</title>
+                <title>CXC COVID Tracker</title>
             </head>
             <body style="color: white; font-family: Futura; text-align: center; background-color:''' + color + '''">
                 <div style="display: inline-block; width: 100%; white-space: nowrap;">
-                    <h1 style="text-align: left; padding-left: 10px; font-size: 50px"> Library </h1>
-                    <h1 style="text-align: right; padding-right: 10-px; font-size: 200px">''' + str(percentage) + '''%</h1>
+                    <h1 style="float: left; padding-left: 10px; font-size: 50px"> Bedfont CXC </h1>
+                    <h1 style="text-align: right; padding-right: 10-px; font-size: 200px; padding-top: -10px">''' + str(percentage) + '''%</h1>
+                    <p style="float: left; white-space: pre-line; font-size: 25px; padding-left: 10px">COVID 19 \n Density Threshold</p>
                     <h1 style="font-size: 50px">''' + status + '''</h1>
                 </div>
                 <div style="background-color: white; padding: 10px; color: black">
                     <p style="text-align: left"> Current Occupancy </p>
                     <p style="text-align: right"> Maximum Safe Occupancy </p>
                     <h1 style="text-align: left">''' + str(people) + '''</h1>
-                    <h1 style="text-align: right">''' + str(maxSafe) + '''</h1>
+                    <h1 style="text-align: right; padding-bottom: 100%">''' + str(maxSafe) + '''</h1>
                 </div>
             </body>
         </html>'''
