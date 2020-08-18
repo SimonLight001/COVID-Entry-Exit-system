@@ -27,8 +27,6 @@ Then we need to install the dependencies - `pip3 install requests pyjwt cryptogr
 
 This may require admin permissions - `sudo pip3 install requests pyjwt cryptography Flask`
 
-Then navigate to the correct folder - `cd Location_COVID`
-
 IT IS KEY TO RUN THE WEB SERVER FIRST!
 
 Firstly start the web server with the command - `python3 web_server.py`
